@@ -8,7 +8,7 @@
 int main()
 {
 
-    int i , arraySort[MAX] ={0} ,  isSort = FALSE, changePlace;
+    int i , arraySort[MAX] ={0} ,  sort = FALSE, changePlace;
     
     
     /* For example 
@@ -24,9 +24,9 @@ int main()
 
 /* Algorithm of bubble methods */
     
-    while(isSort)
+    while(Sort)
     {
-         isSort = FALSE;
+         Sort = FALSE;
 
          for( i = 0 ; i < MAX - 1 ; i++)
          {
@@ -35,7 +35,7 @@ int main()
                  changePlace = arratSort[i];
                  arraySort[i] = arraySort[i+1];
                  arraySort[i+1] = changePlace ;
-                 isSort = TRUE;
+                 Sort = TRUE;
               }
          
          }
